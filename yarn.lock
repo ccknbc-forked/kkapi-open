@@ -3763,24 +3763,19 @@ makeerror@1.0.12:
   dependencies:
     tmpl "1.0.5"
 
-markdown-to-txt@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.npmmirror.com/markdown-to-txt/-/markdown-to-txt-2.0.0.tgz#7954902555fe46b7aceee02f2fa83619d6519504"
-  integrity sha512-H5DSAY6frUQ6/CR0nJMlGCEuSA3pvi14dYfICJPKLAvd/rDk6eb+cj84zU5XTNYzECyCcujoAL1PHhjmOgeqUw==
+markdown-to-txt@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/markdown-to-txt/-/markdown-to-txt-2.0.1.tgz#bfd6233a2635443cc24900a158b60c6af36ce9c5"
+  integrity sha512-Hsj7KTN8k1gutlLum3vosHwVZGnv8/cbYKWVkUyo/D1rzOYddbDesILebRfOsaVfjIBJank/AVOySBlHAYqfZw==
   dependencies:
     lodash.escape "^4.0.1"
     lodash.unescape "^4.0.1"
-    marked "^3.0.8"
+    marked "^4.0.14"
 
-marked@^3.0.8:
-  version "3.0.8"
-  resolved "https://registry.npmmirror.com/marked/-/marked-3.0.8.tgz#2785f0dc79cbdc6034be4bb4f0f0a396bd3f8aeb"
-  integrity sha512-0gVrAjo5m0VZSJb4rpL59K1unJAMb/hm8HRXqasD8VeC8m91ytDPMritgFSlKonfdt+rRYYpP/JfLxgIX8yoSw==
-
-marked@^4.0.12:
-  version "4.0.12"
-  resolved "https://registry.npmmirror.com/marked/-/marked-4.0.12.tgz#2262a4e6fd1afd2f13557726238b69a48b982f7d"
-  integrity sha512-hgibXWrEDNBWgGiK18j/4lkS6ihTe9sxtV4Q1OQppb/0zzyPSzoFANBa5MfsG/zgsWklmNnhm0XACZOH/0HBiQ==
+marked@^4.0.14:
+  version "4.0.17"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.17.tgz#1186193d85bb7882159cdcfc57d1dfccaffb3fe9"
+  integrity sha512-Wfk0ATOK5iPxM4ptrORkFemqroz0ZDxp5MWfYA7H/F+wO17NRWV5Ypxi6p3g2Xmw2bKeiYOl6oVnLHKxBA0VhA==
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -4319,15 +4314,15 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.npmmirror.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
-pushoo@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmmirror.com/pushoo/-/pushoo-0.0.3.tgz#584d6cd5547d8722fc3eaf494b8f36b21b7fc817"
-  integrity sha512-eMC58UCzE80Ov8AEz4I7nXOFhTKO7FhXxDZGBz3rsgv2zrj2u5TCHTcEyI6tkmcZ0sUJe2MV4yuwVDttX6At/Q==
+pushoo@^0.0.10:
+  version "0.0.10"
+  resolved "https://registry.yarnpkg.com/pushoo/-/pushoo-0.0.10.tgz#20003182e22d69c575c516ff0001e1672d1b9b6d"
+  integrity sha512-PikP1npRxNaYo9wRFxFFBIIL2lFeDrpNmv5DHCLm+fcApRsuuIxhF68Ho9E1s80ezBBQUBrCBWqRcd8ckIRPQg==
   dependencies:
     axios "^0.26.0"
     lodash "^4.17.21"
-    markdown-to-txt "^2.0.0"
-    marked "^4.0.12"
+    markdown-to-txt "^2.0.1"
+    marked "^4.0.14"
 
 qs@6.9.3:
   version "6.9.3"
