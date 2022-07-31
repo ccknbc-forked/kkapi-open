@@ -7,4 +7,4 @@ export declare class IspeakTag {
     orderNo: number;
     description: string;
 }
-export declare const IspeakTagSchema: mongoose.Schema<mongoose.Document<IspeakTag, any, any>, mongoose.Model<mongoose.Document<IspeakTag, any, any>, any, any, any>, any, any>;
+export declare const IspeakTagSchema: mongoose.Schema<mongoose.Document<IspeakTag, any, any>, mongoose.Model<mongoose.Document<IspeakTag, any, any>, any, any, any, any>, {}, {}, {}, {}, "type", mongoose.Document<IspeakTag, any, any>>;

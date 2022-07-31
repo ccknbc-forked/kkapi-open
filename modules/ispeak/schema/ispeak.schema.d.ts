@@ -11,4 +11,4 @@ export declare class Ispeak {
     updatedAt: Date;
     createdAt: Date;
 }
-export declare const IspeakSchema: mongoose.Schema<mongoose.Document<Ispeak, any, any>, mongoose.Model<mongoose.Document<Ispeak, any, any>, any, any, any>, any, any>;
+export declare const IspeakSchema: mongoose.Schema<mongoose.Document<Ispeak, any, any>, mongoose.Model<mongoose.Document<Ispeak, any, any>, any, any, any, any>, {}, {}, {}, {}, "type", mongoose.Document<Ispeak, any, any>>;

@@ -5,4 +5,4 @@ export declare class Token {
     value: string;
     user: string;
 }
-export declare const TokenSchema: mongoose.Schema<mongoose.Document<Token, any, any>, mongoose.Model<mongoose.Document<Token, any, any>, any, any, any>, any, any>;
+export declare const TokenSchema: mongoose.Schema<mongoose.Document<Token, any, any>, mongoose.Model<mongoose.Document<Token, any, any>, any, any, any, any>, {}, {}, {}, {}, "type", mongoose.Document<Token, any, any>>;

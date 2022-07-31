@@ -13,4 +13,4 @@ export declare class User extends mongoose.Document {
     githubId: string;
 }
 export declare type UserDocument = User & mongoose.Document;
-export declare const UserSchema: mongoose.Schema<User, mongoose.Model<User, any, any, any>, any, any>;
+export declare const UserSchema: mongoose.Schema<User, mongoose.Model<User, any, any, any, any>, {}, {}, {}, {}, "type", User>;
