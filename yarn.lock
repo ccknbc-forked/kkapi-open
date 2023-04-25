@@ -4163,14 +4163,13 @@ passport-strategy@1.x.x, passport-strategy@^1.0.0:
   resolved "https://registry.npmmirror.com/passport-strategy/-/passport-strategy-1.0.0.tgz#b5539aa8fc225a3d1ad179476ddf236b440f52e4"
   integrity sha512-CB97UUvDKJde2V0KDWWB3lyf6PC3FaZP7YxZ2G8OAtn9p4HI9j9JLP9qjOGZFvyl8uwNT8qM+hGnz/n16NI7oA==
 
-passport@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/passport/-/passport-0.6.0.tgz#e869579fab465b5c0b291e841e6cc95c005fac9d"
-  integrity sha512-0fe+p3ZnrWRW74fe8+SvCyf4a3Pb2/h7gFkQ8yTJpAO50gDzlfjZUZTO1k5Eg9kUct22OxHLqDZoKUWRHOh9ug==
+passport@^0.5.2:
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/passport/-/passport-0.5.3.tgz#e69b46c9bb3290660bc2b3299330d78710b198cc"
+  integrity sha512-gGc+70h4gGdBWNsR3FuV3byLDY6KBTJAIExGFXTpQaYfbbcHCBlRRKx7RBQSpqEqc5Hh2qVzRs7ssvSfOpkUEA==
   dependencies:
     passport-strategy "1.x.x"
     pause "0.0.1"
-    utils-merge "^1.0.1"
 
 path-exists@^4.0.0:
   version "4.0.0"
@@ -5138,7 +5137,7 @@ util-deprecate@^1.0.1, util-deprecate@~1.0.1:
   resolved "https://registry.npmmirror.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
   integrity sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==
 
-utils-merge@1.0.1, utils-merge@^1.0.1:
+utils-merge@1.0.1:
   version "1.0.1"
   resolved "https://registry.npmmirror.com/utils-merge/-/utils-merge-1.0.1.tgz#9f95710f50a267947b2ccc124741c1028427e713"
   integrity sha512-pMZTvIkT1d+TFGvDOqodOclx0QWkkgi6Tdoa8gC8ffGAAqz9pzPTZWAybbsHHoED/ztMtkv/VoYTYyShUn81hA==
@@ -5383,10 +5382,15 @@ yallist@^4.0.0:
   resolved "https://registry.npmmirror.com/yallist/-/yallist-4.0.0.tgz#9bb92790d9c0effec63be73519e11a35019a3a72"
   integrity sha512-3wdGidZyq5PB084XLES5TpOSRA3wjXAlIWMhum2kRcv/41Sn2emQ0dycQW4uZXLejwKvg6EsvbdlVL+FYEct7A==
 
-yaml@^1.10.2, yaml@^1.7.2:
+yaml@^1.7.2:
   version "1.10.2"
   resolved "https://registry.npmmirror.com/yaml/-/yaml-1.10.2.tgz#2301c5ffbf12b467de8da2333a459e29e7920e4b"
   integrity sha512-r3vXyErRCYJ7wg28yvBY5VSoAF8ZvlcW9/BwUzEtUsjvX/DKs24dIkuwjtuprwJJHsbyUbLApepYTR1BN4uHrg==
+
+yaml@^2.2.2:
+  version "2.2.2"
+  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.2.2.tgz#ec551ef37326e6d42872dad1970300f8eb83a073"
+  integrity sha512-CBKFWExMn46Foo4cldiChEzn7S7SRV+wqiluAb6xmueD/fGyRHIhX8m14vVGgeFWjN540nKCNVj6P21eQjgTuA==
 
 yargs-parser@20.x, yargs-parser@^20.2.2:
   version "20.2.9"
